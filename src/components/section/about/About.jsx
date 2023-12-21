@@ -3,7 +3,8 @@ import { Container } from "react-bootstrap";
 export default function About() {
   return (
     <>
-      <Container style={{ width: "900px" }}>
+      <Container className="mt-5 mb-5">
+        <div style={{ width: "900px" }}></div>
         <h3 className="text-center mt-4 fw-semibold">About</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
