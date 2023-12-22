@@ -30,7 +30,7 @@ export default function VisiMisi() {
 
   return (
     <>
-      <Container className="mt-5 mb-5 ">
+      <Container className="mt-5 mb-5" id="visi">
         <h3 className="text-center fw-semibold mt-5 mb-3">Visi & Misi</h3>
         <Row>
           <Col

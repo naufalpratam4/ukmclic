@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 export default function HeroSection() {
   return (
     <>
-      <Container className="pt-3">
+      <Container className="pt-3" id="home">
         <Row>
           {/* kiri */}
           <Col xs={4}>

@@ -41,9 +41,13 @@ export default function NavBar() {
 
   return (
     <>
-      <Navbar expand="md">
+      <Navbar
+        expand="md"
+        className="navbar sticky-top border-body"
+        style={{ background: "white", borderBottom: "2px solid grey" }}
+      >
         <Container style={{ paddingTop: "5px", paddingBottom: "5px" }}>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img
               alt=""
               src="src/assets/landing page/Logo CLIC.png"

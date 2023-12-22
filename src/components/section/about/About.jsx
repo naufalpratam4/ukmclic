@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 export default function About() {
   return (
     <>
-      <Container className="mt-5 mb-5">
+      <Container className="mt-5 mb-5" id="about">
         <div style={{ width: "900px" }}></div>
         <h3 className="text-center mt-4 fw-semibold">About</h3>
         <p>
