@@ -9,6 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/divisi" element="cek" />
+        tes
       </Routes>
     </BrowserRouter>
   );
