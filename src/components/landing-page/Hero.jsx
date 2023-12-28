@@ -6,7 +6,7 @@ function Hero() {
   return (
     <div className="md:flex">
       <div className="w-full md:order-2">
-        <img src="assets/Group 59.png" alt="" className="w-full" />
+        <img src="public/Group 59.png" alt="" className="w-full" />
       </div>
 
       <div className="p-4 md:p-32 md:order-1">
