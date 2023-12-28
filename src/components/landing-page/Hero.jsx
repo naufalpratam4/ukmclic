@@ -1,13 +1,12 @@
 import { Icon } from "@chakra-ui/icon";
 import React from "react";
 import { FaPeopleGroup, FaPeopleLine } from "react-icons/fa6";
-import { heroImage } from "../../../public/Group 59.png";
 
 function Hero() {
   return (
     <div className="md:flex">
       <div className="w-full md:order-2">
-        <img src={heroImage} alt="" className="w-full" />
+        <img src="assets/Group 59.png" alt="" className="w-full" />
       </div>
 
       <div className="p-4 md:p-32 md:order-1">

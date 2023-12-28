@@ -1,6 +1,6 @@
 import { HamburgerIcon } from "@chakra-ui/icons";
 import React from "react";
-import { logoCLIC } from "../../../public/logoClic.png";
+
 function NavBar() {
   return (
     <div className="grid grid-cols-3 p-8 md:flex">
@@ -10,7 +10,7 @@ function NavBar() {
         </div>
       </div>
       <div className="md:order-1">
-        <img src={logoCLIC} alt="" />
+        <img src="assets/logoClic.png" alt="" />
       </div>
     </div>
   );
