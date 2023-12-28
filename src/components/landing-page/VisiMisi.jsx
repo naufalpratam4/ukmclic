@@ -7,53 +7,59 @@ function VisiMisi() {
       <div className="text-center  text-2xl">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, unde.
       </div>
-      <div className="-100 mt-4">
+      <div className=" mt-4">
         <div>
-          <ul className="flex border-b-2 border-gray-500 border-solid mb-3 ">
-            <div className="pe-2">
-              <span className="text-4xl text-orange-500">01</span>
-            </div>
-            <div>
-              <li>
-                <span className="text-2xl">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-                  culpa id reprehenderit voluptas molestias! Atque alias facere
-                  earum, sequi sit nisi harum, dolore ea quibusdam ipsum
-                  distinctio asperiores repellendus nulla!
-                </span>
-              </li>
-            </div>
-          </ul>
-          <ul className="flex border-b-2 border-gray-500 border-solid ">
-            <div className="pe-2">
-              <span className="text-4xl text-orange-500">02</span>
-            </div>
-            <div>
-              <li>
-                <span className="text-2xl">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-                  culpa id reprehenderit voluptas molestias! Atque alias facere
-                  earum, sequi sit nisi harum, dolore ea quibusdam ipsum
-                  distinctio asperiores repellendus nulla!
-                </span>
-              </li>
-            </div>
-          </ul>
-          <ul className="flex border-b-2 border-gray-500 border-solid ">
-            <div className="pe-2">
-              <span className="text-4xl text-orange-500">03</span>
-            </div>
-            <div>
-              <li>
-                <span className="text-2xl">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-                  culpa id reprehenderit voluptas molestias! Atque alias facere
-                  earum, sequi sit nisi harum, dolore ea quibusdam ipsum
-                  distinctio asperiores repellendus nulla!
-                </span>
-              </li>
-            </div>
-          </ul>
+          <div className="border-b-2 border-gray-500 border-solid mt-4">
+            <ul className="flex  mb-4 ">
+              <div className="pe-2">
+                <span className="text-4xl text-orange-500">01</span>
+              </div>
+              <div>
+                <li>
+                  <span className="text-2xl ">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quod culpa id reprehenderit voluptas molestias! Atque alias
+                    facere earum, sequi sit nisi harum, dolore ea quibusdam
+                    ipsum distinctio asperiores repellendus nulla!
+                  </span>
+                </li>
+              </div>
+            </ul>
+          </div>
+          <div className="border-b-2 border-gray-500 border-solid mt-4">
+            <ul className="flex  mb-4 ">
+              <div className="pe-2">
+                <span className="text-4xl text-orange-500">01</span>
+              </div>
+              <div>
+                <li>
+                  <span className="text-2xl ">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quod culpa id reprehenderit voluptas molestias! Atque alias
+                    facere earum, sequi sit nisi harum, dolore ea quibusdam
+                    ipsum distinctio asperiores repellendus nulla!
+                  </span>
+                </li>
+              </div>
+            </ul>
+          </div>
+          <div className="border-b-2 border-gray-500 border-solid mt-4">
+            <ul className="flex  mb-4 ">
+              <div className="pe-2">
+                <span className="text-4xl text-orange-500">01</span>
+              </div>
+              <div>
+                <li>
+                  <span className="text-2xl ">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quod culpa id reprehenderit voluptas molestias! Atque alias
+                    facere earum, sequi sit nisi harum, dolore ea quibusdam
+                    ipsum distinctio asperiores repellendus nulla!
+                  </span>
+                </li>
+              </div>
+            </ul>
+          </div>
         </div>
       </div>
 

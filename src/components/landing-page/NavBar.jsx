@@ -9,7 +9,10 @@ function NavBar() {
           <HamburgerIcon boxSize={32} />
         </div>
       </div>
-      <div className="md:order-1">
+      <div className="md:order-1 flex">
+        <img src={logoClic} alt="" />
+      </div>
+      <div className="md:order-3 sm:hidden">
         <img src={logoClic} alt="" />
       </div>
     </div>

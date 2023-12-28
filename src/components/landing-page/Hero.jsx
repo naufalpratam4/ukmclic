@@ -14,7 +14,7 @@ function Hero() {
         <div className="text-2xl font-semibold">
           Selamat Datang di Website UKM CLIC Universitas Negeri Semarang
         </div>
-        <div className="  text-center pt-3">
+        <div className="pt-3">
           <div className="text-xl text-gray-500">Kepengurusan 2023/2024</div>
           <div className="text-xl font-bold pb-2">Kabinet Amanah</div>
           <div className="grid grid-cols-2 text-xl font-bold">
@@ -25,7 +25,7 @@ function Hero() {
             <div>
               <div>
                 <Icon as={FaPeopleGroup} />{" "}
-                <span className="text-gray-500">50 Fungsio</span>
+                <span className="text-gray-500">50 Fungsionaris</span>
               </div>
             </div>
           </div>
