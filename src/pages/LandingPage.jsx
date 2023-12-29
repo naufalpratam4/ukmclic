@@ -5,6 +5,7 @@ import About from "../components/landing-page/About";
 import VisiMisi from "../components/landing-page/VisiMisi";
 import Division from "../components/landing-page/Division";
 import NavBar from "../components/landing-page/NavBar";
+import FooterComponent from "../components/landing-page/FooterComponent";
 
 function LandingPage() {
   return (
@@ -14,6 +15,7 @@ function LandingPage() {
       <About />
       <VisiMisi />
       <Division />
+      <FooterComponent />
     </>
   );
 }
