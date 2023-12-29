@@ -19,16 +19,6 @@ const Anggota = [
   },
 ];
 function DaftarAnggota() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const handleOpenModal = () => {
-    setIsModalOpen(true);
-  };
-
-  const handleCloseModal = () => {
-    setIsModalOpen(false);
-  };
-
   return (
     <div>
       <>
