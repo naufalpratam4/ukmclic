@@ -1,7 +1,6 @@
 import { HamburgerIcon } from "@chakra-ui/icons";
 import React from "react";
 import logoClic from "../../../public/icon/logoClic.png";
-import Dashboard from "../../pages/Dashboard";
 function NavBar() {
   return (
     <>
@@ -27,7 +26,7 @@ function NavBar() {
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-orange-500" href={<Dashboard />}>
+                  <a className="hover:text-orange-500" href="#">
                     Visi Misi
                   </a>
                 </li>
