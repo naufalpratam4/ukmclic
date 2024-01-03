@@ -1,24 +1,30 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaPeopleGroup } from "react-icons/fa6";
 import NavbarDashboard from "../components/NavbarDashboard";
 import { useState } from "react";
 import Modal from "../components/modal/daftar-anggota/ModalAnggota";
 import ModalAnggota from "../components/modal/daftar-anggota/ModalAnggota";
-const Anggota = [
-  {
-    nama: "Naufal Darma Yuda Pratama",
-    posisi: "Ketua",
-    profil: "public/icon/Logo CLIC.png",
-    jurusan: "Ilmu Komputer 2021",
-  },
-  {
-    nama: "Abir",
-    posisi: "Ketua Baru",
-    profil: "public/icon/Logo CLIC.png",
-    jurusan: "Kesmas 2022",
-  },
-];
+
 function DaftarAnggota() {
+  const [users, setUsers] = useState([]);
+  const endpoint = "https://65239ce1ea560a22a4e88ce2.mockapi.io/users";
+
+  useEffect(() => {
+    fetch(endpoint)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status : ${response.status}`);
+        }
+        return response.json();
+      })
+      .then((data) => {
+        setUsers(data);
+      })
+      .catch((error) => {
+        console.error("Fetch Error", error);
+      });
+  });
+
   return (
     <div>
       <>
@@ -119,15 +125,20 @@ function DaftarAnggota() {
 
                       <div className="flow-root">
                         <ul>
-                          {Anggota.map((anggota, index) => (
+                          {users.map((anggota, index) => (
                             <li key={index} className="py-3 sm:py-4">
                               <div className="flex items-center space-x-4">
                                 <div className="flex-shrink-0">
-                                  <img src={anggota.profil} width={"30px"} />
+                                  <img
+                                    src={anggota.profil}
+                                    width={"30px"}
+                                    height={"30px"}
+                                    className="rounded-full"
+                                  />
                                 </div>
                                 <div className="flex-1 min-w-0">
                                   <p className="text-sm font-medium text-gray-900 truncate">
-                                    {anggota.nama}
+                                    {anggota.name}
                                   </p>
                                   <p className="text-sm text-gray-500 truncate">
                                     <a
