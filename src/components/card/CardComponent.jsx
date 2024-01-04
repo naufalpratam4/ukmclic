@@ -1,27 +1,52 @@
-import React from "react";
-
+import {
+  CardHeader,
+  CardBody,
+  CardFooter,
+  Typography,
+  Button,
+} from "@material-tailwind/react";
 function CardComponent(props) {
   return (
     <>
-      <div className="border-4 border-gray-500 rounded-xl mb-3">
-        <div className="">
+      <div className="mt-6 w-96 border shadow-lg rounded-lg">
+        <div floated={false} className="h-80 p-4 mb-9 ">
           <img
-            src="https://picsum.photos/500/300"
-            alt=""
-            className="rounded-tl-lg rounded-tr-lg"
+            src="https://picsum.photos/900"
+            alt="profile-picture"
+            className="rounded-lg"
           />
-          <h2 className="pt-4 font-semibold text-2xl text-center">
-            {props.divisi}
-          </h2>
-          <div className="text-center pb-4">
-            <button
-              type="button"
-              className="py-4 px-9 bg-orange-500 rounded-lg w-1/2 mt-4 text-white hover:bg-orange-700 ease-in-out duration-150"
-            >
-              Lihat Profil
-            </button>
-          </div>
         </div>
+        <CardBody>
+          <Typography variant="h4" color="blue-gray" className="mb-1">
+            {props.divisi}
+          </Typography>
+          <Typography>{props.deskripsi}</Typography>
+        </CardBody>
+        <CardFooter className="pt-0">
+          <a href="#" className="inline-block">
+            <Button
+              size="sm"
+              variant="text"
+              className="flex items-center gap-2"
+            >
+              Learn More
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={2}
+                stroke="currentColor"
+                className="h-4 w-4"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                />
+              </svg>
+            </Button>
+          </a>
+        </CardFooter>
       </div>
     </>
   );
