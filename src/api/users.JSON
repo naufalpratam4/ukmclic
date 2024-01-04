@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": null,
+      "Jurusan": "Ilmu Komputer",
+      "angkatan_clic": 15,
+      "angkatan_kuliah": 21,
+      "name": "Naufal Darma Yuda Pratama",
+      "posisi": "Ketua periode 2022/2023"
+    },
+    {
+      "id": null,
+      "Jurusan": "Ilmu Komputer",
+      "angkatan_clic": 16,
+      "angkatan_kuliah": 22,
+      "name": "Abir Reva",
+      "posisi": "Ketua Baru"
+    }
+  ]
+}
