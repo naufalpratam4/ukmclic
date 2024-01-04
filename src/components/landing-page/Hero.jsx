@@ -15,7 +15,7 @@ function Hero() {
           />
         </div>
 
-        <div className="p-32 w-full my-auto">
+        <div className="md:p-32 p-4 w-full my-auto ">
           <div className="text-2xl font-semibold  ">
             Selamat Datang di Website UKM CLIC Universitas Negeri Semarang
           </div>

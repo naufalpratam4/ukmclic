@@ -7,9 +7,7 @@ export default {
     "node_modules/flowbite-react/lib/esm/**/*.js",
   ],
   theme: {
-    extend: {
-      animation: { "spin-fade": "spin 3s linear infinite bg-red-500" },
-    },
+    extend: {},
   },
   plugins: [require("flowbite/plugin")],
 };
