@@ -7,16 +7,11 @@ export default {
     "node_modules/flowbite-react/lib/esm/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: { "spin-fade": "spin 3s linear infinite bg-red-500" },
+    },
   },
   plugins: [require("flowbite/plugin")],
-  plugins: [require("tailwindcss-animated")],
-
-  safelist: [
-    "!duration-[0ms]",
-    "!delay-[0ms]",
-    'html.js :where([class*="taos:"]:not(.taos-init))',
-  ],
 };
 const withMT = require("@material-tailwind/react/utils/withMT");
 

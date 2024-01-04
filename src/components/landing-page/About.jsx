@@ -2,8 +2,11 @@ import React from "react";
 
 function About() {
   return (
-    <div className="p-4 md:p-32 min-h-full " id="about">
-      <div className="text-center font-bold text-4xl ">About</div>
+    <div
+      className="p-4 md:p-32 min-h-full delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0 "
+      id="about"
+    >
+      <div className="text-center font-bold text-4xl spin-fade">About</div>
       <div className="text-justify text-2xl">
         Organisasi ini didirikan pada tanggal 18 Juni 2007 di Fakultas Sains dan
         Teknologi Universitas Teknologi Yogyakarta. Organisasi ini bertujuan

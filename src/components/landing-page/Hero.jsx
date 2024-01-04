@@ -7,7 +7,7 @@ function Hero() {
   return (
     <>
       <div className="md:flex md:order-1" id="hero">
-        <div className="md:order-2 w-full">
+        <div className=" md:order-2 w-full">
           <img
             src={heroImage}
             alt=""
@@ -15,11 +15,11 @@ function Hero() {
           />
         </div>
 
-        <div className="w-full my-auto">
-          <div className="text-2xl font-semibold px-9 ">
+        <div className="p-32 w-full my-auto">
+          <div className="text-2xl font-semibold  ">
             Selamat Datang di Website UKM CLIC Universitas Negeri Semarang
           </div>
-          <div className="pt-3 px-9">
+          <div className="pt-3 ">
             <div className="text-xl text-gray-500">Kepengurusan 2023/2024</div>
             <div className="text-xl font-bold pb-2">Kabinet Amanah</div>
             <div className="grid grid-cols-2 text-xl font-bold">
