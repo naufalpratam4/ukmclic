@@ -6,7 +6,7 @@ import heroImage from "../../../public/icon/Group 59.png";
 function Hero() {
   return (
     <>
-      <div className="md:flex md:order-1">
+      <div className="md:flex md:order-1" id="hero">
         <div className="md:order-2 w-full">
           <img
             src={heroImage}

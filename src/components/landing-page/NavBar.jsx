@@ -16,22 +16,22 @@ function NavBar() {
               {/* Nav Links */}
               <ul className="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
                 <li>
-                  <a className="hover:text-orange-500" href="#">
+                  <a className="hover:text-orange-500" href="/#hero">
                     Home
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-orange-500" href="#">
+                  <a className="hover:text-orange-500" href="#about">
                     About
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-orange-500" href="#">
+                  <a className="hover:text-orange-500" href="#visi">
                     Visi Misi
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-orange-500" href="#">
+                  <a className="hover:text-orange-500" href="#divisi">
                     Divisi
                   </a>
                 </li>
