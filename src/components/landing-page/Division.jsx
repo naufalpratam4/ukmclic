@@ -25,7 +25,7 @@ function Division() {
   return (
     <div className="py-4 mt-32 md:mx-32">
       <div className="text-4xl font-bold text-center pb-9">Divisi</div>
-      <div className="grid md:grid-cols-2 justify-items-center">
+      <div className="grid md:grid-cols-3 justify-items-center">
         {divisi.map((divisiName, index) => (
           <CardComponent
             key={index}

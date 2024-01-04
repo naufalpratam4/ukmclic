@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: [
     "./index.html",
@@ -9,6 +10,13 @@ export default {
     extend: {},
   },
   plugins: [require("flowbite/plugin")],
+  plugins: [require("tailwindcss-animated")],
+
+  safelist: [
+    "!duration-[0ms]",
+    "!delay-[0ms]",
+    'html.js :where([class*="taos:"]:not(.taos-init))',
+  ],
 };
 const withMT = require("@material-tailwind/react/utils/withMT");
 

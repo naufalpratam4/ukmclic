@@ -8,7 +8,7 @@ import {
 function CardComponent(props) {
   return (
     <>
-      <div className="mt-6 w-96 border shadow-lg rounded-lg">
+      <div className="mt-6 xl:w-80 md:w-60 w-96 border shadow-lg rounded-lg">
         <div floated={false} className="h-80 p-4 mb-9 ">
           <img
             src="https://picsum.photos/900"
